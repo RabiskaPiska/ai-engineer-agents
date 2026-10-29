@@ -1,0 +1,11 @@
+# GraphQL Specialist Agent Pack — runtime + dev dependencies
+# Install: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+httpx==0.28.1
+graphql-core==3.3.1
+mcp>=1.2
+pytest>=8
+pytest-cov
+ruff
+
+# --- Optional (uncomment for postgres-mcp live DB connections) ---
+# psycopg2-binary

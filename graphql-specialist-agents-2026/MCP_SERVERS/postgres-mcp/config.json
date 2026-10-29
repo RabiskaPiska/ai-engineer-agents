@@ -1,0 +1,11 @@
+{
+  "name": "postgres-mcp",
+  "endpoint": "localhost:5432",
+  "transport": "stdio",
+  "auth": {
+    "type": "env",
+    "var": "POSTGRES_URL"
+  },
+  "rate_limit_per_min": 60,
+  "timeout_s": 30
+}

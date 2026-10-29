@@ -1,0 +1,10 @@
+{
+  "name": "graphql-mcp",
+  "endpoint": "localhost:8094",
+  "transport": "stdio",
+  "auth": {
+    "type": "none"
+  },
+  "rate_limit_per_min": 120,
+  "timeout_s": 30
+}

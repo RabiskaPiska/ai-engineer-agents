@@ -1,0 +1,13 @@
+{
+  "name": "security-tools-mcp",
+  "endpoint": "localhost:8084",
+  "transport": "stdio",
+  "auth": {
+    "type": "none"
+  },
+  "env": {
+    "GRAPHW00F_BIN": ""
+  },
+  "rate_limit_per_min": 30,
+  "timeout_s": 90
+}

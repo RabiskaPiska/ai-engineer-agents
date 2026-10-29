@@ -1,0 +1,50 @@
+{
+  "name": "GraphQL Specialist Agent",
+  "version": "1.0.0",
+  "inputs": {
+    "graphql_url": "str required",
+    "auth_config": "object optional",
+    "test_scope": "str optional",
+    "vulnerability_types": "array optional",
+    "timeout_seconds": "int optional"
+  },
+  "outputs": [
+    "findings",
+    "finding_details",
+    "query_response",
+    "severity",
+    "proposed_fix",
+    "fix_code",
+    "verification_result",
+    "schema_map"
+  ],
+  "mcp_servers": [
+    "github-mcp",
+    "graphql-mcp",
+    "custom-api-mcp",
+    "security-tools-mcp",
+    "postgres-mcp"
+  ],
+  "skills": [
+    "schema-fingerprinting",
+    "introspection-enumeration",
+    "clairvoyance-discovery",
+    "bola-idor-testing",
+    "alias-abuse-testing",
+    "batch-abuse-testing",
+    "complexity-dos-testing",
+    "deep-nesting-testing",
+    "nplus1-detection",
+    "report-generation"
+  ],
+  "limits": {
+    "max_ops_default": 100,
+    "max_depth_default": 20,
+    "test_timeout_s": 240
+  },
+  "human_in_the_loop": {
+    "critical_pause": true,
+    "confidence_auto_report": 0.9,
+    "confidence_manual_review": 0.7
+  }
+}

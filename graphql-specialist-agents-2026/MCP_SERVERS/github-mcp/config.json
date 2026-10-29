@@ -1,0 +1,11 @@
+{
+  "name": "github-mcp",
+  "endpoint": "localhost:8081",
+  "transport": "stdio",
+  "auth": {
+    "type": "env",
+    "var": "GH_TOKEN"
+  },
+  "rate_limit_per_min": 60,
+  "timeout_s": 30
+}

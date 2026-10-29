@@ -1,0 +1,10 @@
+{
+  "name": "custom-api-mcp",
+  "endpoint": "localhost:8083",
+  "transport": "stdio",
+  "auth": {
+    "type": "none"
+  },
+  "rate_limit_per_min": 30,
+  "timeout_s": 300
+}
